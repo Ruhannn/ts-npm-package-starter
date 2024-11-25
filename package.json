@@ -9,7 +9,7 @@
     "scripts": {
         "build": "tsup src/index.ts --format cjs,esm --dts",
         "lint": "tsc --noEmit",
-        "release": "bun run build && changeset publish"
+        "release": "bun run build && changeset publish --access public"
     },
     "dependencies": {
         "@changesets/cli": "^2.27.10",

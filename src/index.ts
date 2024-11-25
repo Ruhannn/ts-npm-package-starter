@@ -4,4 +4,4 @@ export const add = (num: number) => {
 };
 const a = _.join(['a', 'b', 'c'], '~');
 console.log(a);
-console.log("hellooo");
+console.log("hello");
