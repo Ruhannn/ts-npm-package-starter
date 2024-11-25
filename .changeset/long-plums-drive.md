@@ -1,5 +1,0 @@
----
-"my-package": minor
----
-
-testing
